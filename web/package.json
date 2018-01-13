@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "node web.js"
+  },
+
+  "dependencies": {
+    "common": "1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": ["common", "web", "server"],
+
+  "scripts": {
+    "start": "run-p start:server start:web",
+    "start:web": "npm start --prefix web",
+    "start:server": "npm start --prefix server"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}
